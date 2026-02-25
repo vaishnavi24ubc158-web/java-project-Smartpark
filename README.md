@@ -145,10 +145,17 @@ Open in IntelliJ IDEA or NetBeans
 Add H2 .jar file to libraries
 Compile the project
 Run SmartParkGUI.java
+
+command for run
+---------------
+javac -cp ".;lib/h2-2.4.240.jar" *.java
+java -cp ".;lib/h2-2.4.240.jar" SmartParkGUI
+
+
 12.Sample Test Case
 -------------------
 Input:
-Vehicle No: KL07AB1234
+Vehicle No: KL-07-AB-1234
 Owner Name: Ammu
 Hours: 3
 Output:
